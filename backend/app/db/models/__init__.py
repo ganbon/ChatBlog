@@ -1,13 +1,12 @@
 from .user import User
-from .response import Response
+from .comment import Comment
 from .thread import Thread
-from .group import UserGroup,ThreadGroup
+from .group import Group
 
 
 __all__ = [
     User,
-    Response,
+    Comment,
     Thread,
-    UserGroup,
-    ThreadGroup
+    Group
 ]
